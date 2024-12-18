@@ -1,8 +1,9 @@
 import React from 'react'
+import ImagemEntrada from '../../components/ImagemEntrada/ImagemEntrada'
 
 const TelaRegistro = () => {
   return (
-    <div>TelaRegistro</div>
+    <div></div>
   )
 }
 

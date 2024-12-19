@@ -1,5 +1,10 @@
-.ImagemEntrada{
-    background-image: url(/src/imgs/FundoEntrada.png);
-    height: 100%;
-    width: 75%;
-}
+.ImagemEntrada {
+    background: url(src/imgs/FundoEntrada.png) no-repeat center center/cover; 
+    height: 1040px;
+    width: 1040px;
+    position: absolute;
+    top: -60px; 
+    right: -130px;
+    bottom: 0;
+  }
+  

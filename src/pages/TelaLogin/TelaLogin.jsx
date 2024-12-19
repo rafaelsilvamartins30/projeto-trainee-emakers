@@ -25,4 +25,3 @@ const TelaLogin = () => {
 }
 
 export default TelaLogin
-a

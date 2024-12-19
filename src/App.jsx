@@ -4,7 +4,12 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import TelaRegistro from './pages/TelaRegistro/TelaRegistro'
 import TelaLogin from './pages/TelaLogin/TelaLogin'
 import TelaRecup from './pages/TelaRecup/TelaRecup'
-
+import TelaCompra from './pages/TelaCompra/TelaCompra'
+import Telaprincipal from './pages/TelaPrincipal/Telaprincipal'
+import TelaPopulares from './pages/TelaPopulares/TelaPopulares'
+import TelaGame from './pages/TelaGame/TelaGame'
+import TelaConta from './pages/TelaConta/TelaConta'
+import TelaAdm from './pages/TelaAdm/TelaAdm'
 
 const App = () => {
 
@@ -14,6 +19,12 @@ const App = () => {
       <Route path="/" element={<TelaLogin />} />
       <Route path="/registrar" element={<TelaRegistro />} />
       <Route path="/recuperar" element={<TelaRecup />} />
+      <Route path="/home" element={<Telaprincipal />} />
+      <Route path="/populares" element={<TelaPopulares />} />
+      <Route path="/game" element={<TelaGame />} />
+      <Route path="/carrinho" element={<TelaCompra />} />
+      <Route path="/admin" element={<TelaAdm />} />
+      <Route path="/conta" element={<TelaConta />} />
     </Routes>
     </Router>
   );

@@ -1,10 +1,15 @@
 import React from 'react'
 import ImagemEntrada from '../../components/ImagemEntrada/ImagemEntrada'
 
-const TelaRegistro = () => {
+function TelaRegistro () {
   return (
-    <div></div>
-  )
+    <div>
+      <div></div>
+      <div>
+        <ImagemEntrada />
+      </div>
+    </div>
+  );
 }
 
 export default TelaRegistro

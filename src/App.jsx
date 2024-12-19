@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import './App.css'
-import TelaRegistro from './pages/TelaRegistro/TelaRegistro'
 
 function App() {
   
 
   return (
-    <TelaRegistro/>
+   <div>
+    <h1>React App</h1>
+   </div>
   )
 }
 

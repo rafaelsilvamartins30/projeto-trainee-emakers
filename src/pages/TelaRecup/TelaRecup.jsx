@@ -1,8 +1,14 @@
 import React from 'react'
+import ImagemEntrada from '../../components/ImagemEntrada/ImagemEntrada'
 
 const TelaRecup = () => {
   return (
-    <div>TelaRecup</div>
+    <div>
+    <div></div>
+    <div>
+      <ImagemEntrada />
+    </div>
+    </div>
   )
 }
 

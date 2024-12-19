@@ -1,0 +1,12 @@
+.geral{
+    display: flex;
+    height: 915px;
+    width: 1440px;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    background-color :#FBF8F4;
+}

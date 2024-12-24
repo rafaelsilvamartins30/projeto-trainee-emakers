@@ -1,12 +1,29 @@
 .geral{
+    width: 100vh;
+    height: 100vh;
     display: flex;
-    height: 915px;
-    width: 1440px;
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #000000;
-    background-color :#FBF8F4;
+    flex-direction: row;
 }
+.esquerda{
+    display: flex;
+    flex-direction: column;
+    width: 45vh;
+    height: 100vh;
+    justify-content: space-around;
+   
+}
+.logar{
+    height: 100vh;
+    width: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.login-links{
+    height: 40vh;
+    width: 45vh;
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+

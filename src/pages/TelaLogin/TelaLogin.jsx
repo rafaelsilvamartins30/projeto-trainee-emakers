@@ -13,8 +13,8 @@ const TelaLogin = () => {
           <button type="submit">→</button>
         </form>
         <div className="login-links">
-          <a href="#">Criar Conta</a>
-          <a href="#">Esqueceu a Senha?</a>
+          <a href="/registrar">Criar Conta</a>
+          <a href="/recuperar">Esqueceu a Senha?</a>
         </div>
       </div>
       <div>

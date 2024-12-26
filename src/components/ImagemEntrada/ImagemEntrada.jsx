@@ -3,7 +3,9 @@ import "./ImagemEntrada.css"
 
 const ImagemEntrada = () => {
   return (
-    <div className='ImagemEntrada'></div>
+    <div className='ImagemEntrada'> 
+    <img className='imgentrada' src="src/imgs/FundoEntrada.png" alt="" />
+    </div>
   )
 }
 

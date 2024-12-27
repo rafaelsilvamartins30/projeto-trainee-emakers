@@ -12,7 +12,7 @@ const TelaLogin = () => {
           <form className='logar'>
           <input className='inputlogin' type="email" placeholder="E-mail" required />
           <input className='inputlogin' type="password" placeholder="Senha" required />
-          <Link to="/home">
+          <Link to="/conta">
           <button className='botaologin' type="submit"> </button>
           </Link>
           </form>

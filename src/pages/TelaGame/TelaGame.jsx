@@ -1,8 +1,21 @@
 import React from 'react'
+import './TelaGame.css'
+import Cabecalho from '../../components/Cabecalho/Cabecalho'
+import Rodape from '../../components/rodape/rodape'
 
 const TelaGame = () => {
   return (
-    <div>TelaGame</div>
+    <div>
+      <div>
+        <Cabecalho />
+      </div>
+      <div>
+
+      </div>
+      <div>
+        <Rodape />
+      </div>
+    </div>
   )
 }
 

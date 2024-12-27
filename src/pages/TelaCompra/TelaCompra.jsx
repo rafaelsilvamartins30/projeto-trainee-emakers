@@ -1,8 +1,18 @@
 import React from 'react'
+import './TelaCompra.css'
+import Cabecalho from '../../components/Cabecalho/Cabecalho'
 
 const TelaCompra = () => {
   return (
-    <div>TelaCompra</div>
+    <div>
+      <div>
+        <Cabecalho />
+      </div>
+      <div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
   )
 }
 

@@ -1,8 +1,22 @@
 import React from 'react'
+import './TelaPopulares.css'
+import Cabecalho from '../../components/Cabecalho/Cabecalho'
+import Rodape from '../../components/rodape/rodape'
 
 const TelaPopulares = () => {
   return (
-    <div>TelaPopulares</div>
+    <div>
+      <div>
+        <Cabecalho />
+      </div>
+      <div>
+        <div></div>
+        <div></div>
+      </div>
+      <div>
+        <Rodape />
+      </div>
+    </div>
   )
 }
 

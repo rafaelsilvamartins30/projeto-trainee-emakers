@@ -1,8 +1,19 @@
 import React from 'react'
+import './TelaAdm.css'
+import Cabecalho from '../../components/Cabecalho/Cabecalho'
 
 const TelaAdm = () => {
   return (
-    <div>TelaAdm</div>
+    <div>
+      <div>
+        <Cabecalho />
+      </div>
+      <div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
   )
 }
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import "./TelaLogin.css"
 import ImagemEntrada from '../../components/ImagemEntrada/ImagemEntrada'
+import { Link } from 'react-router-dom';
 
 const TelaLogin = () => {
   return (
@@ -11,7 +12,9 @@ const TelaLogin = () => {
           <form className='logar'>
           <input className='inputlogin' type="email" placeholder="E-mail" required />
           <input className='inputlogin' type="password" placeholder="Senha" required />
+          <Link to="/home">
           <button className='botaologin' type="submit"> </button>
+          </Link>
           </form>
         </div>
         <div className="loginlinks">

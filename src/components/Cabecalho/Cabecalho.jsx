@@ -7,7 +7,7 @@ const Cabecalho = () => {
   return (
       <div className='cabecalhogeral'>
         <nav className="cabecalhonav">
-            <Link to="/">
+            <Link to="/home">
               <img className='imgcab' src="src/imgs/LogoCab.png" alt="" />
             </Link>
             <a className='refcab' href="#lancamentos">Lançamentos</a>

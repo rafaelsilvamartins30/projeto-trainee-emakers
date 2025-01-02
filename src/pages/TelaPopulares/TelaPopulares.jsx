@@ -40,7 +40,7 @@ const TelaPopulares = () => {
         </div>
         <img className='iconpopullares' src="" alt="" />
       </div>
-      <div className='endpopulares'>
+      <div className='a'>
         <Rodape />
       </div>
     </div>

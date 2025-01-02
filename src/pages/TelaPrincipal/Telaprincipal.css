@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 .homegeral{
     display: flex;
     flex-direction: column;
@@ -5,24 +6,54 @@
     height: 100vh;
     overflow: scroll;
 }
-.homecabecalho{
-    position: fixed;
-    top: 0;
-    left: 0;
-    box-shadow: 0px 4px 4px 0px #00000040;  
-}
 .midhome{
     margin-top: 10vh;
 }
 .carroselcima{
     width: 100vw;
-    height: 40vh;
+    height: 60vh;
 }
 .carroselbaixo{
     width: 100vw;
-    height: 25vh;
+    height: 40vh;
     background-color: #4B626C;
 }
-.homerodape{
-    left: 0;
+.titlelancamentos{
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 300;
+    text-align: left;
+    color: #FBF8F3;
+}
+.carrosellancamentos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+    height: 20vh;
+
+}
+.itemlancamento{
+    width: 10vw;
+    height: 20vh;
+}
+.img-lancamento{
+    width: 100px;
+    height: 180px;
+}
+.infolancamento{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80px;
+    height: 30px;
+    background-color: #FCFAFA;
+    border-radius: 5px;
+}
+.precolancamento{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: left;
+    color: #4B626C;
 }

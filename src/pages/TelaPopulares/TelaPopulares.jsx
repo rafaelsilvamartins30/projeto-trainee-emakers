@@ -5,15 +5,15 @@ import Rodape from '../../components/rodape/rodape'
 
 const TelaPopulares = () => {
   return (
-    <div>
-      <div>
+    <div className='popularesgeral'>
+      <div className='toppopulares'>
         <Cabecalho />
       </div>
-      <div>
+      <div className='midpopulares'>
         <div></div>
         <div></div>
       </div>
-      <div>
+      <div className='endpopulares'>
         <Rodape />
       </div>
     </div>

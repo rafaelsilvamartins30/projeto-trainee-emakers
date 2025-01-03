@@ -2,6 +2,8 @@ import React from 'react'
 import './TelaPopulares.css'
 import Cabecalho from '../../components/Cabecalho/Cabecalho'
 import Rodape from '../../components/rodape/rodape'
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 const TelaPopulares = () => {
   return (
@@ -9,10 +11,15 @@ const TelaPopulares = () => {
       <div className='toppopulares'>
         <Cabecalho />
       </div>
-      <div className='midpopulares'>
+      <div className='titulogeralpop'>
         <h1 className='titlepopulares'>Populares</h1>
+      </div>
+      <div className='midpopulares'>
         <div className='firstmidpop'>
           <div className='imagempopulares'>
+            <div className='iconimgpop'>
+              <h1 className='icontextpop'>1º</h1>
+            </div>
             <img className='imgpopulares' src="/src/imgs/godpop.png" alt="" />
           </div>
           <div className='textpopulares'>
@@ -22,6 +29,9 @@ const TelaPopulares = () => {
         </div>
         <div className='secondmidpop'>
           <div className='imagempopulares'>
+            <div className='iconimgpop'>
+              <h1 className='icontextpop'>2º</h1>
+            </div>
             <img className='imgpopulares' src="/src/imgs/horipop.png" alt="" />
           </div>
           <div className='textpopulares'>
@@ -31,14 +41,21 @@ const TelaPopulares = () => {
         </div>
         <div className='thirdmidpop'>
           <div className='imagempopulares'>
+            <div className='iconimgpop'>
+              <h1 className='icontextpop'>3º</h1>
+            </div>
             <img className='imgpopulares' src="/src/imgs/dayspop.png" alt="" />
           </div>
           <div className='textpopulares'>
             <h1 className='titletextpopulares'>Days Gone</h1>
-            <p className='ppopulares'>Days Gone é um jogo de ação e aventura em mundo aberto que se passa em um ambiente adverso dois anos após uma pandemia mundial devastadora.Entre na pele do antigo motociclista fora da lei Deacon St. John, um caçador de recompensas que tenta achar uma razão para viver numa terra cercada pela morte. Vasculhe assentamentos abandonados em busca de equipamentos para produzir itens e armas valiosos ou arrisque-se com outros sobreviventes que tentam ganhar a vida honestamente... ou de formas mais violentas.</p>
+            <p className='ppopulares'>Days Gone é um jogo de ação e aventura em mundo aberto que se passa em um ambiente adverso dois anos após uma pandemia mundial devastadora. Entre na pele do antigo motociclista fora da lei Deacon St. John, um caçador de recompensas que tenta achar uma razão para viver numa terra cercada pela morte. Vasculhe assentamentos abandonados em busca de equipamentos para produzir itens e armas valiosos ou arrisque-se com outros sobreviventes que tentam ganhar a vida honestamente... ou de formas mais violentas.</p>
           </div>
         </div>
-        <img className='iconpopullares' src="" alt="" />
+        <div className='carrinhoiconpop'>
+          <button className='carrinhopop' type="submit"> 
+            <img className='imgcarrinhopop' src="/src/imgs/carrinho.png" alt="" />
+          </button>
+        </div>
       </div>
       <div className='a'>
         <Rodape />

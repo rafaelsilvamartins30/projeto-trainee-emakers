@@ -51,13 +51,15 @@ const TelaPopulares = () => {
             <p className='ppopulares'>Days Gone é um jogo de ação e aventura em mundo aberto que se passa em um ambiente adverso dois anos após uma pandemia mundial devastadora. Entre na pele do antigo motociclista fora da lei Deacon St. John, um caçador de recompensas que tenta achar uma razão para viver numa terra cercada pela morte. Vasculhe assentamentos abandonados em busca de equipamentos para produzir itens e armas valiosos ou arrisque-se com outros sobreviventes que tentam ganhar a vida honestamente... ou de formas mais violentas.</p>
           </div>
         </div>
-        <div className='carrinhoiconpop'>
-          <button className='carrinhopop' type="submit"> 
-            <img className='imgcarrinhopop' src="/src/imgs/carrinho.png" alt="" />
-          </button>
-        </div>
-      </div>
-      <div className='a'>
+        <div className='ajustarcarrinho'>
+            <div className='carrinhoiconpop'>
+              <button className='carrinhopop' type="submit"> 
+                <img className='imgcarrinhopop' src="/src/imgs/carrinho.png" alt="" />
+              </button>
+            </div>
+          </div>
+      </div>  
+      <div className='endpopulares'>
         <Rodape />
       </div>
     </div>

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 .popularesgeral{
     display: flex;
     flex-direction: column;
@@ -9,6 +10,52 @@
     margin-top: 10vh;
     width: 100vw;
     height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+.titlepopulares{
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    color: #4B626C;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+.firstmidpop{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.imagempopularese{
+
+}
+.imgpopulares{
+
+}
+.textpopulares{
+
+}
+.titletextpopulares{
+
+}
+.ppopulares{
+
+}
+.secondmidpop{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+}
+.thirdmidpop{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 

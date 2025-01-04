@@ -9,7 +9,7 @@ import 'slick-carousel/slick/slick-theme.css';
 const Telaprincipal = () => {
   
   const settingsLancamentos = {
-      dots: true,
+      dots: false,
       infinite: true,
       speed: 500,
       slidesToShow: 5,

@@ -25,7 +25,7 @@ const Telaprincipal = () => {
 
       <div className='midhome'>
         <div className='carroselcima'>
-
+          
         </div>
 
         <div className='carroselbaixo'>

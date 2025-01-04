@@ -1,6 +1,8 @@
 import React from 'react'
 import './TelaConta.css'
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import Cabecalho from '../../components/Cabecalho/Cabecalho'
+
 
 const TelaConta = () => {
   return (
@@ -11,17 +13,23 @@ const TelaConta = () => {
       <div className='midconta'>
         <div className='direitaconta'>
           <div className='textdireita'>
-            <h1 className='titletextconta'>Olá, nomeusuario</h1>
+            <h1 className='titletextcontadireita'>Olá, nome usuario</h1>
             <h1 className='textcontadireita'>Seu email é nomeusuario@email.com</h1>
             <h1 className='textcontadireita'>Seu CPF é 123.456.789-00</h1>
-            <button>Alterar Dados</button>
-            <button>Excluir Conta</button>
-            <button>Tela do admin</button>
+            <button className='buttoncontadireita'>
+              <h1 className='textbutoncontadireita'>Alterar Dados</h1>
+              <i className='fas fa-pencil-alt'></i>
+            </button>
+            <button className='buttoncontadireita'>
+              <h1 className='textbutoncontadireita'>Excluir Conta</h1>
+              <i className='fas fa-trash'></i>
+            </button>
+            <button className='buttoncontadireitaadm'><h1 className='textbutoncontadireita'>Tela do admin</h1></button>
           </div>
         </div>
         <div className='esquerdaconta'>
-          <div className='tituloconta'>
-            <h1 className='titletextconta'>Jogos adquiridos:</h1>
+          <div className='titulocontaesquerda'>
+            <h1 className='titletextcontaesquerda'>Jogos adquiridos:</h1>
           </div>
           <div className='gridconta'>
             <div className='grid1conta'> <img className='contaimgesquerda' src="/src/imgs/bikiniconta.png" alt="" /> <h1 className='contatextesquerda' >100/100</h1> </div>

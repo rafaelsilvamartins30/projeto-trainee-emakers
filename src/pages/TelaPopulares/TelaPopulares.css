@@ -2,7 +2,6 @@
 .popularesgeral{
     display: flex;
     flex-direction: column;
-    justify-content: sp;
     width: 100vw;
     height: 100vh;
     overflow: scroll;

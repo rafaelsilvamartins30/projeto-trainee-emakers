@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.geralconta{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+.topconta{
+    position: relative; 
+    z-index: 1000; 
+}
+.midconta{
+    margin-top: 10vh;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.direitaconta{
+    width: 60vw;
+    height: 90vh;
+}
+.textdireita{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 647px;
+    height: 468px;
+    top: 365px;
+    left: 112px;
+}
+.titletextconta{
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 500;
+    text-align: left;
+    color:  #4B626C;
+}
+.textcontadireita{
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: left;
+    color: #4B626C;
+}
+.esquerdaconta{
+    background-color: #4B626C;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.tituloconta{
+    display: flex;
+}
+.titletextconta{
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 400;
+    color: #FBF6F0;
+    margin-left: 60px;
+}
+.gridconta{
+    display: grid;
+    gap: 100px;
+    justify-content: center;  
+}
+.grid1conta{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+}
+.grid2conta{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+}
+.grid3conta{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+}
+.grid4conta{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+    gap: 5px;
+}
+.contaimgesquerda{
+    width: 190px;
+    height: 250px;
+}
+.contatextesquerda{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #FBF6F0;
+}
+.carrinhoiconconta{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 37vw;
+    margin-bottom: 10%;
+ }
+.carrinhoconta{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 75px;
+     width: 75px;
+     border-radius: 75px;
+     background-color: #4B626C;
+     border: 2px solid #FFFFFF;
+}
+.imgcarrinhoconta{
+     height: 45px;
+     width: 45px;
+}
+ 

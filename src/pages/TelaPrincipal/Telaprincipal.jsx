@@ -92,77 +92,125 @@ const Telaprincipal = () => {
                   <div className="small-item1">
                     <img src="src/imgs/horizoncarroselgrande.png" alt="" />
                     <div className="info">
-                      <span>-15%</span>
-                      <span>R$ 169,90</span>
+                      <h1 className='textinfo'>-25%</h1>
+                    </div>
+                    <div className="info2">
+                      <h1 className='textinfo2'>R$ 149,99</h1>
                     </div>
                   </div>
                   <div className="small-item2">
                     <img src="src/imgs/dayscarroselgrande.png" alt="" />
                     <div className="info">
-                      <span>-25%</span>
-                      <span>R$ 149,99</span>
+                      <h1 className='textinfo'>-15%</h1>
+                    </div>
+                    <div className="info2">
+                      <h1 className='textinfo2'>R$ 169,99</h1>
                     </div>
                   </div>
                   <div className="big-item">
                     <img src="src/imgs/godcarroselgrande.png" alt="" />
-                    <div className="info">
-                      <span>-40%</span>
-                      <span>R$ 119,95</span>
+                    <div className="infobig">
+                      <h1 className='textinfo'>-40%</h1>
+                    </div>
+                    <div className="info2big">
+                      <h1 className='textinfo2'>R$ 119,95</h1>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="slide">
                 <div className="grid-container">
-                  <div className="small-item">
-                    <img src="scr/imgs/horizoncarroselgrande.png" alt="Jogo 1" />
+                  <div className="small-item1">
+                    <img src="src/imgs/horizoncarroselgrande.png" alt="" />
                     <div className="info">
-                      <span>-15%</span>
-                      <span>R$ 169,90</span>
+                      <h1 className='textinfo'>-25%</h1>
+                    </div>
+                    <div className="info2">
+                      <h1 className='textinfo2'>R$ 149,99</h1>
                     </div>
                   </div>
-                  <div className="small-item">
-                    <img src="scr/imgs/dayscarroselgrande.png" alt="Jogo 2" />
+                  <div className="small-item2">
+                    <img src="src/imgs/dayscarroselgrande.png" alt="" />
                     <div className="info">
-                      <span>-25%</span>
-                      <span>R$ 149,99</span>
+                      <h1 className='textinfo'>-15%</h1>
+                    </div>
+                    <div className="info2">
+                      <h1 className='textinfo2'>R$ 169,99</h1>
                     </div>
                   </div>
                   <div className="big-item">
-                    <img src="scr/imgs/godcarroselgrande.png" alt="Jogo Grande" />
-                    <div className="info">
-                      <span>-40%</span>
-                      <span>R$ 119,95</span>
+                    <img src="src/imgs/godcarroselgrande.png" alt="" />
+                    <div className="infobig">
+                      <h1 className='textinfo'>-40%</h1>
+                    </div>
+                    <div className="info2big">
+                      <h1 className='textinfo2'>R$ 119,95</h1>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="slide">
                 <div className="grid-container">
-                  <div className="small-item">
-                    <img src="scr/imgs/horizoncarroselgrande.png" alt="Jogo 1" />
+                  <div className="small-item1">
+                    <img src="src/imgs/horizoncarroselgrande.png" alt="" />
                     <div className="info">
-                      <span>-15%</span>
-                      <span>R$ 169,90</span>
+                      <h1 className='textinfo'>-25%</h1>
+                    </div>
+                    <div className="info2">
+                      <h1 className='textinfo2'>R$ 149,99</h1>
                     </div>
                   </div>
-                  <div className="small-item">
-                    <img src="scr/imgs/dayscarroselgrande.png" alt="Jogo 2" />
+                  <div className="small-item2">
+                    <img src="src/imgs/dayscarroselgrande.png" alt="" />
                     <div className="info">
-                      <span>-25%</span>
-                      <span>R$ 149,99</span>
+                      <h1 className='textinfo'>-15%</h1>
+                    </div>
+                    <div className="info2">
+                      <h1 className='textinfo2'>R$ 169,99</h1>
                     </div>
                   </div>
                   <div className="big-item">
-                    <img src="scr/imgs/godcarroselgrande.png" alt="Jogo Grande" />
-                    <div className="info">
-                      <span>-40%</span>
-                      <span>R$ 119,95</span>
+                    <img src="src/imgs/godcarroselgrande.png" alt="" />
+                    <div className="infobig">
+                      <h1 className='textinfo'>-40%</h1>
+                    </div>
+                    <div className="info2big">
+                      <h1 className='textinfo2'>R$ 119,95</h1>
                     </div>
                   </div>
                 </div>
               </div>
-              
+              <div className="slide">
+                <div className="grid-container">
+                  <div className="small-item1">
+                    <img src="src/imgs/horizoncarroselgrande.png" alt="" />
+                    <div className="info">
+                      <h1 className='textinfo'>-25%</h1>
+                    </div>
+                    <div className="info2">
+                      <h1 className='textinfo2'>R$ 149,99</h1>
+                    </div>
+                  </div>
+                  <div className="small-item2">
+                    <img src="src/imgs/dayscarroselgrande.png" alt="" />
+                    <div className="info">
+                      <h1 className='textinfo'>-15%</h1>
+                    </div>
+                    <div className="info2">
+                      <h1 className='textinfo2'>R$ 169,99</h1>
+                    </div>
+                  </div>
+                  <div className="big-item">
+                    <img src="src/imgs/godcarroselgrande.png" alt="" />
+                    <div className="infobig">
+                      <h1 className='textinfo'>-40%</h1>
+                    </div>
+                    <div className="info2big">
+                      <h1 className='textinfo2'>R$ 119,95</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>  
             </Slider>
           </div>
         </div>

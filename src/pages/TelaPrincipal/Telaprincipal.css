@@ -12,62 +12,138 @@
     z-index: 1000; 
 }
 .midhome{
-    margin-top: 20vh;
+    margin-top: 10vh;
 }
 .carroselcima{
     width: 100vw;
-    height: 60vh;
+    height: 70vh;
 }
 .carrossel-container {
-    width: 90vw; /* Ajuste a largura do carrossel */
-    height: 60vh;
-    margin: auto;
-  }
+    width: 90vw; 
+    margin: 5vw;
+}
   
-  .grid-container {
+.grid-container {
+    width: 1220px;
+    height: 512px;
     display: grid;
-    grid-template-columns: 400px 800px; 
-    grid-template-rows: 230px 460px; 
-  }
+    grid-template-columns: 406px 816px; 
+    grid-template-rows: 231px 231px; 
+}
   
-  .small-item1 {
-    grid-row-start: 1;
-    grid-row-end: 1; 
-    grid-column-start:  1;
-    grid-column-end: 1;
-    display: flex;
-    flex-direction: column;
-
-  }
-  .small-item2 {
+.small-item1 {
     grid-row-start: 2;
     grid-row-end: 2; 
     grid-column-start:  1;
     grid-column-end: 1;
     display: flex;
-    flex-direction: column;
-    
-  }
+    flex-direction: flex-end;
+    align-items: end;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease-in-out;
+}
+.small-item2 {
+    grid-row-start: 1;
+    grid-row-end: 1; 
+    grid-column-start:  1;
+    grid-column-end: 1;
+    display: flex;
+    flex-direction: flex-end;
+    align-items: end;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease-in-out;
+}
   
-  .big-item {
+.big-item {
     grid-row-start: 1;
     grid-row-end: 2; 
     grid-column-start:  2;
     grid-column-end: 2;
     display: flex;
     flex-direction: column;
-  }
-  
-  .small-item img,
-  .big-item img {
-  }
-  
-  .info {
-    margin-top: 10px;
-    text-align: center;
-    font-size: 14px;
-    color: #333;
-  }  
+    align-items: end;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease-in-out;
+}
+.big-item:hover,
+.small-item1:hover,
+.small-item2:hover {
+    transform: scale(1.05);
+}
+.info {
+    background-color: #4B626C;
+    width: 65px;
+    height: 23.91px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    bottom: 7px;
+    left: 7px;
+}  
+.info2 {
+    width: 100px;
+    height: 23.91px;
+    border-radius: 5px ;
+    background-color: #FCFAFA;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    bottom: 7px;
+    left: 80px;
+}
+.infobig {
+    background-color: #4B626C;
+    width: 65px;
+    height: 23.91px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    bottom: -225px;
+    right: 115px;
+} 
+.info2big {
+    width: 100px;
+    height: 23.91px;
+    border-radius: 5px ;
+    background-color: #FCFAFA;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    bottom: -225px;
+    right: 7px;
+    
+}
+.textinfo{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FCFAFA;
+}
+.textinfo2{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    color: #4B626C;
+}
 .iconeAvancarSlideCarrossel,
 .iconeVoltarSlideCarrossel {
     position: absolute;
@@ -77,7 +153,7 @@
     z-index: 2;
     border: none;
     background: none;
-    color: #4B626C;
+    color: #97A4A2;
     font-size: 100px;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
@@ -91,6 +167,23 @@
 .iconeAvancarSlideCarrossel:hover,
 .iconeVoltarSlideCarrossel:hover {
     transform: translateY(-50%) scale(1.1); 
+}
+
+.slick-dots {
+    position: absolute !important;
+    bottom: 65px !important; 
+    left: 50% !important; 
+    transform: translateX(-50%) !important; 
+    display: flex !important;
+    justify-content: center !important;
+    gap: 10px !important; 
+}
+
+.slick-dots li button::before {
+    font-size: 20px !important; 
+    color: #97A4A2 !important; 
+    opacity: 1 !important; 
+    transition: color 0.3s ease-in-out !important;
 }
 .carroselbaixo{
     width: 100vw;

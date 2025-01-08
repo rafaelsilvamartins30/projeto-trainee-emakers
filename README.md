@@ -1,28 +1,37 @@
-# Meu Projeto Trainee
+# 🖥️ Meu Projeto Trainee
 
 Este é um projeto front-end de 4 páginas desenvolvido em React como parte do processo trainee para a Emakers Jr.
 
-## Organização do Repositório
+## 🗂️ Organização do Repositório
 
-Primeiro, escolhi as 4 páginas que seriam: a página de login, recuperação e registro, a página de conta, a página principal e a página dos populares.  
+
+
+Primeiro, escolhi as 4 páginas que seriam:  
+
+- Página de **Login, Recuperação e Registro**  
+
+- Página de **Conta**  
+
+- Página **Principal**  
+
+- Página dos **Populares**
 Organizei o projeto utilizando o React Router, criando as rotas no arquivo `App.jsx`. Assim, na pasta `src`, criei pastas para os componentes reutilizáveis, como cabeçalho e rodapé, uma pasta para as imagens utilizadas e uma pasta para cada tela.
 
-## Funcionalidades
+## ⚙️ Funcionalidades
 
 - **Telas de Login, Recuperação e Registro**:  
   - Os inputs, botões e links dessas telas estão funcionais.  
   - Adaptei eles para funcionarem com link do React Router, já que, por exemplo, não implementei a verificação de usuário nos inputs da tela de login ou no registro.
 
-- **Cabeçalho**:  
-  - Funcionalidades:  
-    - O input de busca foi implementado, mas não realiza buscas reais.  
-    - O link "Gêneros" está inativo, pois não há uma página para gêneros.  
-    - O restante da navbar foi configurado:  
-      - "Lançamentos" está vinculado ao carrossel inferior da página inicial.  
-      - "Populares" leva à página de populares.  
-      - "Promoções" está associado ao carrossel superior da página inicial.  
-      - "Conta" redireciona para a página de conta.  
-      - A logo do site redireciona para a página principal.
+- **Cabeçalho**:   
+  - O input de busca foi implementado, mas não realiza buscas reais.  
+  - O link "Gêneros" está inativo, pois não há uma página para gêneros.  
+  - O restante da navbar foi configurado:  
+    - "Lançamentos" está vinculado ao carrossel inferior da página inicial.  
+    - "Populares" leva à página de populares.  
+    - "Promoções" está associado ao carrossel superior da página inicial.  
+    - "Conta" redireciona para a página de conta.  
+    - A logo do site redireciona para a página principal.
 
 - **Rodapé**:  
   - Os links de "Explorar" funcionam corretamente.
@@ -42,7 +51,7 @@ Organizei o projeto utilizando o React Router, criando as rotas no arquivo `App.
 - **Página de Populares**:  
   - É uma página de visualização dos 3 jogos mais populares e suas sinopses, sem funcionalidades extras.
 
-## Como Rodar o Projeto
+## 🚀 Como Rodar o Projeto
 
 1. Clone o repositório:  
    ```bash
@@ -62,11 +71,24 @@ Organizei o projeto utilizando o React Router, criando as rotas no arquivo `App.
    ```  
 5. Acesse o projeto no navegador pelo link exibido no terminal.
 
-## Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
-- React.js  
-- React Slick  
-- React Router  
-- Vite  
-- CSS
 
+
+- ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=flat)  
+
+- ![React Slick](https://img.shields.io/badge/-React%20Slick-FFCC00?logo=javascript&logoColor=black&style=flat)  
+
+- ![React Router](https://img.shields.io/badge/-React%20Router-CA4245?logo=react-router&logoColor=white&style=flat)  
+
+- ![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=white&style=flat)  
+
+- ![CSS](https://img.shields.io/badge/-CSS-1572B6?logo=css3&logoColor=white&style=flat)
+
+
+
+---
+
+
+
+![gatinho](https://cataas.com/cat)

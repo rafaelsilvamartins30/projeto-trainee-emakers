@@ -15,6 +15,7 @@ Primeiro, escolhi as 4 páginas que seriam:
 - Página **Principal**  
 
 - Página dos **Populares**
+  
 Organizei o projeto utilizando o React Router, criando as rotas no arquivo `App.jsx`. Assim, na pasta `src`, criei pastas para os componentes reutilizáveis, como cabeçalho e rodapé, uma pasta para as imagens utilizadas e uma pasta para cada tela.
 
 ## ⚙️ Funcionalidades

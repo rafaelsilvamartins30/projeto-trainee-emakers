@@ -10,6 +10,8 @@ const TelaConta = () => {
     cpf: '123.456.789-00'
   });
   const [isEditing, setIsEditing] = useState(false);
+  
+  const [avaliacoes, setAvaliacoes] = useState([0, 0, 0, 0]); // Inicializa com 0 para 4 jogos
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -27,15 +29,37 @@ const TelaConta = () => {
     setIsEditing(false);
   };
 
+  const handleStarClick = (index, rating) => {
+    const newAvaliacoes = [...avaliacoes];
+    newAvaliacoes[index] = rating; 
+    setAvaliacoes(newAvaliacoes);
+  };
+
+  const StarRating = ({ index }) => {
+    return (
+      <div>
+        {[...Array(5)].map((_, starIndex) => (
+          <span
+            key={starIndex}
+            onClick={() => handleStarClick(index, starIndex + 1)}
+            style={{ cursor: "pointer", color: starIndex < avaliacoes[index] ? "gold" : "gray" }}
+          >
+            ★
+          </span>
+        ))}
+        <h1 className='contatextdireita'>Avaliação: {avaliacoes[index]} estrelas</h1>
+      </div>
+    );
+  };
+
   return (
     <div className='geralconta'>
       <div className='topconta'>
         <Cabecalho />
       </div>
       <div className='midconta'>
-      <div className='esquerdaconta'>
+        <div className='esquerdaconta'>
           <div className='textesquerda'>
-            {/* Renderiza a saudação apenas se não estiver editando */}
             {!isEditing && <h1 className='titletextcontaesquerda'>Olá, {formData.username}</h1>}
             {isEditing ? (
               <>
@@ -89,32 +113,30 @@ const TelaConta = () => {
           </div>
           <div className='gridconta'>
             <div className='grid1conta'>
-              <img className='contaimgdireita' src="/src/imgs/bikiniconta.png" alt="" />
-              <h1 className='contatextdireita'>100/100</h1>
+              <img className='contaimgdireita' src="/src/imgs/bikiniconta.png" alt="Jogo 1" />
+              <StarRating index={0} />
             </div>
             <div className='grid2conta'>
-              <img className='contaimgdireita' src="/src/imgs/marsconta.png" alt="" />
-              <h1 className='contatextdireita'>95/100</h1>
+              <img className='contaimgdireita' src="/src/imgs/marsconta.png" alt="Jogo 2" />
+              <StarRating index={1} /> 
             </div>
             <div className='grid3conta'>
-              <img className='contaimgdireita' src="/src/imgs/godconta.png" alt="" />
-              <h1 className='contatextdireita'>75/100</h1>
+              <img className='contaimgdireita' src="/src/imgs/godconta.png" alt="Jogo 3" />
+              <StarRating index={2} /> 
             </div>
             <div className='grid4conta'>
-              <img className='contaimgdireita' src="/src/imgs/stranconta.png" alt="" />
-              <h1 className='contatextdireita'>Adicionar Avaliação</h1>
+              <img className='contaimgdireita' src="/src/imgs/stranconta.png" alt="Jogo 4" />
+              <StarRating index={3} /> 
             </div>
           </div>
           <div className='carrinhoiconconta'>
-          <div className='carrinhoiconconta'>
             <button className='carrinhoconta' type="submit">
-              <img className='imgcarrinhoconta' src="/src/imgs/carrinho.png" alt="" />
+              <img className='imgcarrinhoconta' src="/src/imgs/carrinho.png" alt="Carrinho" />
             </button>
           </div>
         </div>
       </div>
     </div>
-  </div>
   );
 };
 

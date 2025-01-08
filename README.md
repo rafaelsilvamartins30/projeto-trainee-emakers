@@ -1,7 +1,8 @@
-# Meu Projeto React
-
+## Meu Projeto trainee
 Este é um projeto desenvolvido em React como parte do processo trainee para a Emakers Jr.
-
+---
+##
+---
 ## Como rodar o projeto
 
 1. Clone o repositório:
@@ -21,7 +22,7 @@ Este é um projeto desenvolvido em React como parte do processo trainee para a E
    npm run dev
    ```
 5. Acesse o projeto no navegador pelo link exibido no terminal.
-
+---
 ## Tecnologias utilizadas
 
 - React.js

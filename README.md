@@ -1,7 +1,6 @@
 # 🖥️ Meu Projeto Trainee
 
 Este é um projeto front-end de 4 páginas desenvolvido em React como parte do processo trainee para a Emakers Jr.
----
 
 ## 🗂️ Organização do Repositório
 
@@ -16,7 +15,7 @@ Primeiro, escolhi as 4 páginas que seriam:
 - Página dos **Populares**
   
 Organizei o projeto utilizando o React Router, criando as rotas no arquivo `App.jsx`. Assim, na pasta `src`, criei pastas para os componentes reutilizáveis, como cabeçalho e rodapé, uma pasta para as imagens utilizadas e uma pasta para cada tela.
----
+
 ## ⚙️ Funcionalidades
 
 - **Telas de Login, Recuperação e Registro**:  
@@ -50,7 +49,7 @@ Organizei o projeto utilizando o React Router, criando as rotas no arquivo `App.
 
 - **Página de Populares**:  
   - É uma página de visualização dos 3 jogos mais populares e suas sinopses, sem funcionalidades extras.
----
+
 ## 🚀 Como Rodar o Projeto
 
 1. Clone o repositório:  
@@ -70,7 +69,7 @@ Organizei o projeto utilizando o React Router, criando as rotas no arquivo `App.
    npm run dev
    ```  
 5. Acesse o projeto no navegador pelo link exibido no terminal.
----
+
 ## 🛠️ Tecnologias Utilizadas
 
 

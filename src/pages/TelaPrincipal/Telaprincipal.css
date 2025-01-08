@@ -4,51 +4,101 @@
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    overflow: scroll;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.homecabecalho{
+    position: relative; 
+    z-index: 1000; 
 }
 .midhome{
     margin-top: 10vh;
 }
 .carroselcima{
     width: 100vw;
-    height: 60vh;
+    height: 70vh;
 }
 .carroselbaixo{
     width: 100vw;
-    height: 40vh;
+    height: 43vh;
     background-color: #4B626C;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 1rem;
 }
 .titlelancamentos{
+    margin-left: 3%;
     font-family: Montserrat;
     font-size: 32px;
     font-weight: 300;
     text-align: left;
     color: #FBF8F3;
 }
-.carrosellancamentos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100vw;
-    height: 20vh;
+.carrosellancamentos {
+    position: relative;
+    width: 90vw;
+    flex-direction: row !important;
+    justify-content: space-between;
+}
 
+.slick-slide {
+    display: flex !important; 
+    justify-content: center;  
+    align-items: center; 
+}
+.iconeAvancarSlideCarrosselLancamento,
+.iconeVoltarSlideCarrosselLancamento {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transform-origin: center; 
+    z-index: 2;
+    border: none;
+    background: none;
+    color: #FBF8F3;
+    font-size: 70px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.iconeAvancarSlideCarrosselLancamento {
+    right: 10px; 
+}
+.iconeVoltarSlideCarrosselLancamento {
+    left: 10px; 
+}
+.iconeAvancarSlideCarrosselLancamento:hover,
+.iconeVoltarSlideCarrosselLancamento:hover {
+    transform: translateY(-50%) scale(1.1); 
 }
 .itemlancamento{
-    width: 10vw;
-    height: 20vh;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease-in-out;
 }
-.img-lancamento{
-    width: 100px;
-    height: 180px;
+.itemlancamento:hover {
+    transform: scale(1.05);
+}
+.imglancamento{
+    width: 190px;
+    height: 250px;
 }
 .infolancamento{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     width: 80px;
-    height: 30px;
+    height: 25px;
     background-color: #FCFAFA;
     border-radius: 5px;
+    position: absolute;
+    z-index: 2;
+    bottom: 5px;
+    left: 5px;
 }
 .precolancamento{
     font-family: Montserrat;

@@ -14,6 +14,7 @@ const SampleNextArrowCarrossel = ({ onClick }) => (
   </button>
 );
 
+
 const SamplePrevArrowCarrossel = ({ onClick }) => (
   <button onClick={onClick} className='iconeVoltarSlideCarrossel'>
     < SlArrowLeft />
@@ -33,6 +34,17 @@ const SamplePrevArrowCarrosselLancamento = ({ onClick }) => (
 );
 
 const Telaprincipal = () => {
+
+  const settings = {
+    dots: true, // Mostra os indicadores
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true, // Setas para navegação
+    nextArrow: <SampleNextArrowCarrossel/>,
+    prevArrow: <SamplePrevArrowCarrossel/>,
+  };
   
   const settingsLancamentos = {
       dots: false,
@@ -72,10 +84,88 @@ const Telaprincipal = () => {
       </div>
 
       <div className='midhome'>
-        <div className='carroselcima'>
-          
+        <div  className='carrosselcima'>
+          <div className="carrossel-container">
+            <Slider {...settings}>
+              <div className="slide">
+                <div className="grid-container">
+                  <div className="small-item1">
+                    <img src="src/imgs/horizoncarroselgrande.png" alt="" />
+                    <div className="info">
+                      <span>-15%</span>
+                      <span>R$ 169,90</span>
+                    </div>
+                  </div>
+                  <div className="small-item2">
+                    <img src="src/imgs/dayscarroselgrande.png" alt="" />
+                    <div className="info">
+                      <span>-25%</span>
+                      <span>R$ 149,99</span>
+                    </div>
+                  </div>
+                  <div className="big-item">
+                    <img src="src/imgs/godcarroselgrande.png" alt="" />
+                    <div className="info">
+                      <span>-40%</span>
+                      <span>R$ 119,95</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="slide">
+                <div className="grid-container">
+                  <div className="small-item">
+                    <img src="scr/imgs/horizoncarroselgrande.png" alt="Jogo 1" />
+                    <div className="info">
+                      <span>-15%</span>
+                      <span>R$ 169,90</span>
+                    </div>
+                  </div>
+                  <div className="small-item">
+                    <img src="scr/imgs/dayscarroselgrande.png" alt="Jogo 2" />
+                    <div className="info">
+                      <span>-25%</span>
+                      <span>R$ 149,99</span>
+                    </div>
+                  </div>
+                  <div className="big-item">
+                    <img src="scr/imgs/godcarroselgrande.png" alt="Jogo Grande" />
+                    <div className="info">
+                      <span>-40%</span>
+                      <span>R$ 119,95</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="slide">
+                <div className="grid-container">
+                  <div className="small-item">
+                    <img src="scr/imgs/horizoncarroselgrande.png" alt="Jogo 1" />
+                    <div className="info">
+                      <span>-15%</span>
+                      <span>R$ 169,90</span>
+                    </div>
+                  </div>
+                  <div className="small-item">
+                    <img src="scr/imgs/dayscarroselgrande.png" alt="Jogo 2" />
+                    <div className="info">
+                      <span>-25%</span>
+                      <span>R$ 149,99</span>
+                    </div>
+                  </div>
+                  <div className="big-item">
+                    <img src="scr/imgs/godcarroselgrande.png" alt="Jogo Grande" />
+                    <div className="info">
+                      <span>-40%</span>
+                      <span>R$ 119,95</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </Slider>
+          </div>
         </div>
-
         <div className='carroselbaixo'>
           <h1 className='titlelancamentos'>Lançamentos</h1>
           <div className='carrossellancamentos'>
@@ -111,6 +201,11 @@ const Telaprincipal = () => {
                   <img className='imglancamento' src="src/imgs/parish.png" alt="" />
                 </div>
             </Slider>
+          </div>
+          <div className='carrinhoiconprincipal'>
+          <button className='carrinhoprincipal' type="submit"> 
+                <img className='imgcarrinhoprincipal' src="/src/imgs/carrinho.png" alt="" />
+              </button>
           </div>
         </div>
       </div>

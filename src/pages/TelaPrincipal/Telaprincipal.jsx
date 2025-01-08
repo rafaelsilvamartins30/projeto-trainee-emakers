@@ -83,8 +83,8 @@ const Telaprincipal = () => {
         <Cabecalho/>
       </div>
 
-      <div className='midhome'>
-        <div  className='carrosselcima'>
+      <div id='promocoes' className='midhome'>
+        <div className='carrosselcima'>
           <div className="carrossel-container">
             <Slider {...settings}>
               <div className="slide">
@@ -214,7 +214,7 @@ const Telaprincipal = () => {
             </Slider>
           </div>
         </div>
-        <div className='carroselbaixo'>
+        <div id='lancamentos' className='carroselbaixo'>
           <h1 className='titlelancamentos'>Lançamentos</h1>
           <div className='carrossellancamentos'>
             <Slider className='sliderlancamentos' {...settingsLancamentos}>

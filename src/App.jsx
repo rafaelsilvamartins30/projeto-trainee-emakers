@@ -21,9 +21,6 @@ const App = () => {
       <Route path="/recuperar" element={<TelaRecup />} />
       <Route path="/home" element={<Telaprincipal />} />
       <Route path="/populares" element={<TelaPopulares />} />
-      <Route path="/game" element={<TelaGame />} />
-      <Route path="/carrinho" element={<TelaCompra />} />
-      <Route path="/admin" element={<TelaAdm />} />
       <Route path="/conta" element={<TelaConta />} />
     </Routes>
     </Router>

@@ -10,13 +10,13 @@ const Cabecalho = () => {
             <Link to="/home">
               <img className='imgcab' src="src/imgs/LogoCab.png" alt="" />
             </Link>
-            <a className='refcab' href="#lancamentos">Lançamentos</a>
+            <a className='refcab' href="/home#lancamentos">Lançamentos</a>
             <h1 className='refcab'>|</h1>
             <a className='refcab' href="/populares">Populares</a>
             <h1 className='refcab'>|</h1>
             <a className='refcab' href="#generos">Gêneros</a>
             <h1 className='refcab'>|</h1>
-            <a className='refcab' href="#promocoes">Promoções</a>
+            <a className='refcab' href="/home#promocoes">Promoções</a>
             <h1 className='refcab'>|</h1>
             <a className='refcab' href="/conta">Conta</a>
             <input className='inputcab' type="text" placeholder="&#xf002;" />

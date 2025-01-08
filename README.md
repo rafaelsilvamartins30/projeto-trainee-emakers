@@ -2,6 +2,7 @@
 
 Este é um projeto front-end de 4 páginas desenvolvido em React como parte do processo trainee para a Emakers Jr.
 ---
+
 ## 🗂️ Organização do Repositório
 
 Primeiro, escolhi as 4 páginas que seriam:  

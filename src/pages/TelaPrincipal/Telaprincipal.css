@@ -14,7 +14,11 @@
 .midhome{
     margin-top: 10vh;
 }
+.carroselcimamobile{
+    display: none;
+}
 .carroselcima{
+    display: block;
     width: 100vw;
     height: 70vh;
 }
@@ -304,4 +308,67 @@
 .imgcarrinhoprincipal{
     height: 40px;
     width: 40px;
+}
+@media (max-width: 425px) {
+    .homegeral{
+        width: 425px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    .carroselcimamobile{
+        display: block;
+        width: 425px;
+        height: auto;
+    }
+    .carrossel-container {
+        display: none;
+    }
+    .carroselmobile{
+        display: block;
+        width: 425px;
+        height: 300px;
+    }
+    .slick-slider.carroselmobile.slick-initialized{
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;  
+        align-items: center !important;
+        height: 300px !important;
+    }
+    .slidemobile{
+        position: relative;
+        z-index: 1;
+        transition: transform 0.3s ease-in-out;
+    }
+    .slidemobile:hover{
+        transform: scale(1.05);
+    }
+    .imgcarroselmobile{
+        width: 329px;
+        height: 187px;
+    }
+    .iconeAvancarSlideCarrossel {
+        font-size: 70px;
+        right: -20px; 
+    }
+    .iconeVoltarSlideCarrossel {
+        font-size: 70px;
+        left: -20px; 
+    }
+    .carroselbaixo{
+        width: 425px;
+        height: 380px;
+    }
+    .titlelancamentos{
+        font-size: 24px;
+    }
+   
+    .iconeAvancarSlideCarrosselLancamento{
+        font-size: 70px;
+        left: 300px;
+    }
+    .iconeVoltarSlideCarrosselLancamento {
+        font-size: 70px;
+        right: 300px;
+    }
 }

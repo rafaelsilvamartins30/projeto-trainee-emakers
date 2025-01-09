@@ -35,15 +35,66 @@ const SamplePrevArrowCarrosselLancamento = ({ onClick }) => (
 
 const Telaprincipal = () => {
 
-  const settings = {
-    dots: true, // Mostra os indicadores
+  const settingsMobile = {
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: true, // Setas para navegação
+    arrows: true,
     nextArrow: <SampleNextArrowCarrossel/>,
     prevArrow: <SamplePrevArrowCarrossel/>,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+         },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+         },
+      },
+      {
+        breakpoint: 480,
+         settings: {
+          slidesToShow: 1,
+         },
+      },
+    ],
+  };
+
+  const settings = {
+    dots: true, 
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    nextArrow: <SampleNextArrowCarrossel/>,
+    prevArrow: <SamplePrevArrowCarrossel/>,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
   
   const settingsLancamentos = {
@@ -84,6 +135,27 @@ const Telaprincipal = () => {
       </div>
 
       <div id='promocoes' className='midhome'>
+        <div className='carroselcimamobile'>
+          <div className='carroselmobile'>
+              <Slider className='carroselmobile' {...settingsMobile}>
+                <div className='slidemobile'>
+                  <img className='imgcarroselmobile' src="src/imgs/horipop.png" alt="" />
+                  <div className="info"><h1 className='textinfo'>-25%</h1></div>
+                  <div className="info2"><h1 className='precolancamento'>R$ 299,00</h1></div>
+                </div>
+                <div className='slidemobile'>
+                  <img className='imgcarroselmobile' src="src/imgs/dayspop.png" alt="" />
+                  <div className="info"><h1 className='textinfo'>-15%</h1></div>
+                  <div className="info2"><h1 className='textinfo2'>R$ 149,99</h1></div>
+                </div>
+                <div className='slidemobile'>
+                  <img className='imgcarroselmobile' src="src/imgs/godpop.png" alt="" />  
+                  <div className="info"><h1 className='textinfo'>-40%</h1></div>
+                  <div className="info2"><h1 className='textinfo2'>R$ 119,95</h1></div>
+                </div>
+              </Slider>
+          </div>
+        </div>
         <div className='carrosselcima'>
           <div className="carrossel-container">
             <Slider {...settings}>

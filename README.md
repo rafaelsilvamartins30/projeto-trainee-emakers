@@ -4,8 +4,6 @@ Este é um projeto front-end de 4 páginas desenvolvido em React como parte do p
 
 ## 🗂️ Organização do Repositório
 
-
-
 Primeiro, escolhi as 4 páginas que seriam:  
 
 - Página de **Login, Recuperação e Registro**  
@@ -15,6 +13,7 @@ Primeiro, escolhi as 4 páginas que seriam:
 - Página **Principal**  
 
 - Página dos **Populares**
+  
 Organizei o projeto utilizando o React Router, criando as rotas no arquivo `App.jsx`. Assim, na pasta `src`, criei pastas para os componentes reutilizáveis, como cabeçalho e rodapé, uma pasta para as imagens utilizadas e uma pasta para cada tela.
 
 ## ⚙️ Funcionalidades
@@ -55,11 +54,11 @@ Organizei o projeto utilizando o React Router, criando as rotas no arquivo `App.
 
 1. Clone o repositório:  
    ```bash
-   git clone <URL_DO_REPOSITORIO>
+   git clone https://github.com/rafaelsilvamartins30/projeto-trainee-emakers
    ```  
 2. Navegue até a pasta do projeto:  
    ```bash
-   cd meu-projeto
+   cd projeto-trainee-emakers
    ```  
 3. Instale as dependências:  
    ```bash

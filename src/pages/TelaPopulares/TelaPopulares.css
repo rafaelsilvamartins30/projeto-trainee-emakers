@@ -17,14 +17,7 @@
     margin-left: 25vh;
     margin-bottom: 5vh;
 }
-.midpopulares{
-    width: 70vw;
-    height: 140vh;
-    display: flex;
-    flex-direction: column;
-    margin-left: 15vw;
-    margin-bottom: 20vh;
-}
+
 .titlepopulares{
     font-family: Montserrat;    
     font-size: 36px;
@@ -32,6 +25,14 @@
     text-align: left;
     color: #4B626C;
     
+}
+.midpopulares{
+    width: 70vw;
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15vw;
+    margin-bottom: 20vh;
 }
 .firstmidpop{
     display: flex;
@@ -129,4 +130,66 @@
     height: 45px;
     width: 45px;
     color: #FFFFFF;
+}
+
+@media (max-width: 425px) {
+    .popularesgeral{
+        width: 425px;
+        height: auto;
+    }
+    .titulogeralpop{
+        margin-left: 20px;
+    }
+    .titlepopulares{
+        font-size: 24px;
+    }
+    .midpopulares{
+        height: 1300px;
+    }
+    .firstmidpop{
+        flex-direction: column;
+    }
+    .iconimgpop{
+        width: 38px;
+        height: 38px;
+    }
+    .icontextpop{
+        font-size: 20px;
+    }
+    .imgpopulares{
+        width: 322px;
+        height: 190px;
+    }
+    .titletextpopulares{
+        font-size: 16px;
+        margin-bottom: 0;
+        height: 20px;
+    }
+    .ppopulares{
+        font-size: 14px;
+        width: 395px;
+        height: 136px;
+    }
+    .secondmidpop{
+        flex-direction: column;
+    }
+    .thirdmidpop{
+        flex-direction: column;
+    }
+    .ajustarcarrinho{
+        margin-top: 20%;
+        width: 73vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .carrinhopop{
+        height: 50px;
+        width: 50px;
+    }
+    .imgcarrinhopop{
+        height: 30px;
+        width: 30px;
+    }
+    
 }

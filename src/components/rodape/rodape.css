@@ -134,6 +134,9 @@
         display: flex;
         justify-content: space-between;
         flex-direction: column;
+        width: 425px;
+        height: 205px;
+        
     }
     .rodapecima{
         display: flex;

@@ -9,8 +9,10 @@ const TelaRecup = () => {
     <div className='geralrecup'>
       <div className='esquerdarecup'>
         <div className='recup'>
+          <div className='titulorecupgeral'>
           <h1 className='titulorecup'>Recuperar</h1>
           <h1 className='titulorecup2'>Conta</h1>
+          </div>
           <form className='recuperar'>
             <input className='inputrecup' type="email" placeholder="E-mail" required />
             <Link to="/">

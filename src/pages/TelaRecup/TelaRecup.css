@@ -96,3 +96,76 @@
     text-align: left;
     font-size: 16px;
 }
+@media (max-width: 425px) {
+    .geralrecup{
+        width: 425px;
+        height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .esquerdarecup{
+        display: flex;
+        flex-direction: column;
+        width: 425px;
+        height: auto;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .recup{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .titulorecupgeral{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 45px;
+    }
+    .titulorecup{
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 400;
+        margin: 0;
+    }
+    .titulorecup2{
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 400;
+        margin: 0;
+    }
+    .recuperar{
+        width: 425px;
+       height: auto;
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+    }
+    .inputrecup{
+        width: 338px;
+        height: 32px;
+        border-radius: 5px 0px 0px 0px;
+    }
+    .botaorecup{
+        width: 42px;
+        display: flex;
+        align-items: end;
+        margin-left: 350%;
+    }
+    .recuplinks{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        font-family: "Montserrat";
+        text-align: start;
+        width: 425px;
+        height: auto;
+        margin: 0px 0px 30px 85px;
+    }
+}

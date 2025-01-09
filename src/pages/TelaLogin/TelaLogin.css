@@ -80,4 +80,60 @@
     text-align: left;
     font-size: 16px;
 }
-
+@media (max-width: 425px) {
+    .gerallogin{
+        width: 425px;
+        height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .esquerdalogin{
+        display: flex;
+        flex-direction: column;
+        width: 425px;
+        height: auto;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .login{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .titulologin{
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 400;
+    }
+    .logar{
+       width: 425px;
+       height: auto;
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+    }
+    .inputlogin{
+        width: 338px;
+        height: 32px;
+        border-radius: 5px 0px 0px 0px;
+    }
+    .botaologin{
+        width: 42px;
+        display: flex;
+        align-items: end;
+        margin-left: 350%;
+    }
+    .loginlinks{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        font-family: "Montserrat";
+        text-align: start;
+        width: 425px;
+        height: auto;
+        margin: 0px 0px 30px 85px;
+    }
+}

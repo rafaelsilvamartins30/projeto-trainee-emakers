@@ -10,3 +10,20 @@
   width: 70vw;
   height: 135vh;
 }
+@media (max-width: 425px) {
+  .ImagemEntrada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    width: 100%;
+    height: 400px;
+  }
+  .imgentrada{
+    margin-top: -100px;
+    align-items: center;
+    width: 425px;
+    height: 425px;
+  }
+
+}

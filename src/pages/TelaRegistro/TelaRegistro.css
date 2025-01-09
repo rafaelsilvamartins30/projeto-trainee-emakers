@@ -83,3 +83,62 @@
     text-align: left;
     font-size: 16px;
 }
+@media (max-width: 425px) {
+    .geralreg{
+        width: 425px;
+        height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .esquerdareg{
+        display: flex;
+        flex-direction: column;
+        width: 425px;
+        height: 630px;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .reg{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .tituloreg{
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 400;
+        
+    }
+    .registrar{
+        width: 425px;
+       height: auto;
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+    }
+    .inputrereg{
+        width: 338px;
+        height: 32px;
+        border-radius: 5px 0px 0px 0px;
+    }
+    .botaoreg{
+        width: 42px;
+        display: flex;
+        align-items: end;
+        margin-left: 350%;
+    }
+    .reglinks{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        font-family: "Montserrat";
+        text-align: start;
+        width: 425px;
+        height: auto;
+        margin: 0px 0px 30px 85px;
+    }
+    
+}

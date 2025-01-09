@@ -22,7 +22,7 @@ const TelaLogin = () => {
           <a className='reflogin' href="/recuperar">Esqueceu a Senha?</a>
         </div>
       </div>
-      <div>
+      <div >
         <ImagemEntrada />
       </div>
     </div>

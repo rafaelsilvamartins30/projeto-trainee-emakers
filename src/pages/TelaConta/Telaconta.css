@@ -4,7 +4,8 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 .topconta{
     position: relative; 
@@ -13,13 +14,13 @@
 .midconta{
     margin-top: 10vh;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: row;
 }
 .esquerdaconta{
     width: 60vw;
-    height: 90vh;
+    height: auto;
 }
 .textesquerda{
     display: flex;
@@ -108,9 +109,10 @@
 .direitaconta{
     background-color: #4B626C;
     width: 40vw;
+    height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 .titulocontadireita{
     display: flex;
@@ -186,8 +188,10 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    width: 37vw;
-    margin-bottom: 10%;
+    position: relative;
+    z-index: 1;
+    right: 40px;
+    bottom: 10px;
  }
 .carrinhoconta{
      display: flex;
@@ -203,4 +207,134 @@
      height: 45px;
      width: 45px;
 }
- 
+@media (max-width: 425px) {
+    .geralconta{
+       overflow-y: scroll;
+       overflow-x: hidden;
+       display: flex;
+       flex-direction: column;
+    }
+    .midconta{
+        display: flex;
+        flex-direction: column;
+    }
+    .esquerdaconta{
+        display: flex;
+        width: 425px;
+    }  
+    .textesquerda{
+        align-items: center;
+        margin: 0px 0px -150px 0px ;
+    }
+    .titletextcontaesquerda{
+        margin-top: 20px;
+        font-size: 24px;
+    }
+    .textcontaesquerda{
+       font-size: 20px;
+    }
+    .buttoncontaesquerda{
+        width: 198px;
+        height: 33px;
+    }
+    .fa-pencil-alt,
+    .fa-trash{
+       font-size: 16px;
+    }
+    
+    .buttoncontaesquerdaadm{
+        width: 198px;
+        height: 33px;
+    }
+    .inputUsername {
+        width: 300px;
+        height: 40px;
+    }
+    .textbutoncontaesquerda{
+        font-size: 20px;
+    }
+    .direitaconta{
+        width: 425px;
+        
+    }
+   
+    .titletextcontadireita{
+        font-size: 24px;
+        margin-left: 20px;
+    }
+    .gridconta{
+        display: grid;
+        width: 425px;
+        height: 650px;
+        gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 4fr;
+        overflow: scroll;
+
+    }
+    .grid1conta{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        display: flex;
+        align-items: center ;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 5px;
+    }
+    .grid2conta{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        display: flex;
+        align-items: center ;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 5px;
+    }
+    .grid3conta{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        display: flex;
+        align-items: center ;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 5px;
+    }
+    .grid4conta{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 4;
+        grid-row-end: 4;
+        display: flex;
+        align-items: center ;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 5px;
+    }
+    .carrinhoiconconta{
+        display: flex;
+        position: relative;
+        z-index: 1;
+        left: 360px;
+        top: -378px;
+        height: 50px;
+        width: 50px;
+     }
+    .carrinhoconta{
+        height: 50px;
+        width: 50px;
+    }
+    .imgcarrinhoconta{
+        height: 30px;
+        width: 30px;
+    }
+}

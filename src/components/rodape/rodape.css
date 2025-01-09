@@ -129,3 +129,32 @@
     text-align: left;
     color: #4B626C  ;   
 }
+@media (max-width: 425px) {
+    .geralrodape{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .rodapecima{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+    }
+    .imgrodape{
+        height: 100px;
+        width: 100px;
+    }
+    .startrodape{
+        display: none;
+    }
+    .midrodape{
+        display: none;
+    }
+    .endrodape{
+        display: flex;
+    }
+    .titleendrodape{
+        display: none;
+    }
+}

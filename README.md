@@ -54,11 +54,11 @@ Organizei o projeto utilizando o React Router, criando as rotas no arquivo `App.
 
 1. Clone o repositório:  
    ```bash
-   git clone <URL_DO_REPOSITORIO>
+   git clone https://github.com/rafaelsilvamartins30/projeto-trainee-emakers
    ```  
 2. Navegue até a pasta do projeto:  
    ```bash
-   cd meu-projeto
+   cd projeto-trainee-emakers
    ```  
 3. Instale as dependências:  
    ```bash

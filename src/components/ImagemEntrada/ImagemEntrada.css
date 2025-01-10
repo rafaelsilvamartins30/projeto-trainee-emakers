@@ -1,70 +1,52 @@
 .ImagemEntrada {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  height: 100%;
-  width: 70%;
+  
   position: absolute;
   z-index: 1;
 }
 .imgentrada{
   position: fixed;
-  top: -160px;
-  width: 1124px;
-  height: 1124px;
+  
+  margin-top: -162px;
 }
-
-@media (max-width: 1280px) {
+@media (min-width: 1921px) {
   
   .imgentrada{
-    width: 984px;
-    height: 984px;
+    width: 70%;
+    height: auto;
+  }
+}
+@media (max-width: 1024px) {
+  .ImagemEntrada {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .imgentrada{
+    position: relative;
+    width: 100%;
   }
 }
 @media (max-width: 768px) {
   .ImagemEntrada {
     width: 100%;
+    height: auto;
   }
   .imgentrada{
     position: relative;
-    top: -87px;
-    
-    width: 768px;
-    height: 768px;
+    width: 80%;
+    top: 93px;
   }
 }
 @media (max-width: 425px) {
   .ImagemEntrada {
-    height: 400px;
+    width: 100%;
+    height: auto;
   }
   .imgentrada{
     position: relative;
-    top: -48px;
-  
-    width: 425px;
-    height: 425px;
-  }
-
-}
-@media (max-width: 375px) {
-  .ImagemEntrada {
-    height: 375px;
-  }
-  .imgentrada{
-    position: relative;
-    top: -43px;
-    width: 375px;
-    height: 375px;
-  }
-}
-@media (max-width: 320px) {
-  .ImagemEntrada {
-    height: 320px;
-  }
-  .imgentrada{
-    position: relative;
-    top: -36px;
-    width: 320px;
-    height: 320px;
+    width: 100%;
+    top: 93px;
   }
 }

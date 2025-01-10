@@ -18,9 +18,9 @@ const TelaLogin = () => {
           </form>
         </div>
         <div className="loginlinks">
-          <a className='reflogin' href="/registrar">Criar Conta</a>
-          <a className='reflogin' href="/recuperar">Esqueceu a Senha?</a>
-        </div>
+            <a className='reflogin' href="/registrar">Criar Conta</a>
+            <a className='reflogin' href="/recuperar">Esqueceu a Senha?</a>
+          </div>
       </div>
       <div >
         <ImagemEntrada />

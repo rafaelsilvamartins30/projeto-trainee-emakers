@@ -5,26 +5,24 @@
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    position: fixed;
 }
 .esquerdarecup{
-    margin-left: 50px;
     display: flex;
     flex-direction: column;
-    width: auto;
-    height: auto;
+    width: 30%;
+    height: 100%;
     justify-content: flex-start;
     align-items: center;
+    margin-left: 50px;
 }
 .recup{
     display: flex;
     flex-direction: column;
-    width: 30vw;
-    height: 50vh;
     justify-content: flex-start;
     align-items: center;
     position: relative;
     z-index: 2;
+    height: auto;
 }
 .titulorecup{
     display: flex;
@@ -51,12 +49,13 @@
     margin-top: -10%;
 }
 .recuperar{
-    height: 100vh;
-    width: 30vw;
+    height: 50%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    gap: 20px;
 }
 .inputrecup{
     margin-bottom: 10%;
@@ -71,7 +70,6 @@
     text-align: left;
 }
 .botaorecup{
-    margin-left: 45%;
     display: flex;
     width: 42px;
     height: 30px;
@@ -79,20 +77,21 @@
     border: 0;
     background-color: #FBF8F4;
     cursor: pointer;
+    position: relative;
+    z-index: 2;
+    left: 130px;
 }
 .recuplinks{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    margin-bottom: 5vh;
     font-family: "Montserrat";
     text-align: end;
-    height: 50vh;
-    width: 30vw;
-    margin-left: 50%;
-    margin-bottom: 25%;
     position: relative;
+    height: auto;
     z-index: 2;
+    top: 40%;
+    right: 20%;
 }
 .refrecup{
     text-decoration: none;
@@ -102,58 +101,68 @@
     text-align: left;
     font-size: 16px;
 }
+@media (min-width: 1921px) {
+    .geralrecup{
+        width: 100%;
+        height: 100%;
+    }
+    .esquerdarecup{
+        position: relative;
+        margin-left: 50px;
+        width: 30vw;
+        height: 100vh;
+    }
+    .titulorecup{
+        font-size: 100px;
+    }
+    .titulorecup2{
+        font-size: 100px;
+    }
+    .inputrecup{
+        width: 400px;
+        height: 40px;
+    }
+    .botaorecup{
+        left: 180px;
+    }
+    .refrecup{
+        font-size: 24px;
+    }
+}
 @media (max-width: 768px) {
     .geralrecup{
         width: 100%;
         height: 100%;
-        display: flex;
         flex-direction: column-reverse;
-        justify-content: center;
-        position: static;
         overflow-y: scroll;
         overflow-x: hidden;
-        
     }
     .esquerdarecup{
-        margin-top: 620px;
+        position: relative;
         margin-left: 0px;
-        display: flex;
-        flex-direction: column;
+        margin-top: 65%;
         width: 100%;
-        height: auto;
-        justify-content: flex-start;
-        align-items: center;
-        
-    }
-    .recup{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
+        height: 100%;
     }
     .titulorecupgeral{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        gap: 10px;
         align-items: center;
-        text-align: center;
-        margin-bottom: 45px;
+        gap: 10px;
     }
     .titulorecup{
-        font-family: Montserrat;
         font-size: 32px;
-        font-weight: 400;
     }
     .titulorecup2{
-        font-family: Montserrat;
         font-size: 32px;
-        font-weight: 400;
-        margin: 0;
+        position: relative;
+        bottom: -25px;
     }
     .recuperar{
        width: 100%;
        height: auto;
+       
        display: flex;
        flex-direction: column;
        justify-content: flex-start;
@@ -162,130 +171,35 @@
         width: 338px;
         height: 32px;
     }
-    .botaorecup{
-        width: 42px;
-        display: flex;
-        align-items: end;
-        margin-left: 350%;
-    }
     .recuplinks{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        font-family: "Montserrat";
-        text-align: start;
-        width: 100%;
-        height: auto;
-        margin: 0px 0px 30px 85px;
+      margin-top: 15%;
+      margin-bottom: 10%;
+      
     }
+    
+    
 
 }
 @media (max-width: 425px) {
-    .geralrecup{
-        width: 425px;
-        height: 100%;
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        position: static;
-        overflow-y: scroll;
-        overflow-x: hidden;
-    }
+   
     .esquerdarecup{
-        margin-top: 400px;
-        margin-left: 0px;
-        width: 425px;
-        
-    }
-    .recup{
-        width: 425px;
-       height: auto;
-       display: flex;
-       flex-direction: column;
-       justify-content: flex-start;
-    }
-    .titulorecupgeral{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 10px;
-        align-items: center;
-        text-align: center;
-        margin-bottom: 45px;
-    }
-    .titulorecup{
-        font-family: Montserrat;
-        font-size: 32px;
-        font-weight: 400;
-        margin: 0;
-    }
-    .titulorecup2{
-        font-family: Montserrat;
-        font-size: 32px;
-        font-weight: 400;
-        margin: 0;
-    }
-    .recuperar{
-        width: 425px;
-       height: auto;
-       display: flex;
-       flex-direction: column;
-       justify-content: flex-start;
-    }
-    .inputrecup{
-        width: 338px;
-        height: 32px;
-        
-    }
-    .botaorecup{
-        width: 42px;
-        display: flex;
-        align-items: end;
-        margin-left: 350%;
+        margin-top: 80%;
     }
     .recuplinks{
-        margin-top: 100px;
+        right: 90px;
     }
+   
+    
+    
 }
-
-
 @media (max-width: 375px) {
-    .geralrecup{
-        width: 375px;
-        height: auto;
-        position: static;
-        overflow-y: scroll;
-        overflow-x: hidden;
-    }
-    .esquerdarecup{
-        margin-top: 330px;
-        margin-left: 0;
-        width: 375px;
-    }
-    .inputrecup{
-        width: 250px;
-    }
+   .inputrecup{
+       width: 250px;
+   }
     .botaorecup{
-        margin-left: 250%;
-    }
-    
-}
-@media (max-width: 320px) {
-    .geralrecup{
-        width: 320px;
-        height: auto;
-        
-    }
-    .esquerdarecup{
-        margin-top: 280px;
-        margin-left: 0;
-        width: 320px;
-    }
-    .botaorecup{
-        width: 42px;
-        display: flex;
-        align-items: end;
-        margin-left: 250%;
-    }
-    
+       left: 110px;
+   } 
+   .recuplinks{
+    right: 50px;
+   }
 }

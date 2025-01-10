@@ -5,26 +5,24 @@
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    position: fixed;
 }
 .esquerdalogin{
-    margin-left: 50px;
     display: flex;
     flex-direction: column;
-    width: auto;
-    height: auto;
+    width: 30%;
+    height: 100%;
     justify-content: flex-start;
     align-items: center;
+    margin-left: 50px;
 }
 .login{
     display: flex;
     flex-direction: column;
-    width: 30vw;
-    height: 50vh;
     justify-content: flex-start;
     align-items: center;
     position: relative;
     z-index: 2;
+    height: auto;
 }
 .titulologin{
     font-family: "Montserrat";
@@ -35,12 +33,13 @@
     margin-bottom: 10%;
 }
 .logar{
-    height: 100vh;
-    width: 30vw;
+    height: 50%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    gap: 20px;
 }
 .inputlogin{
     margin-bottom: 10%;
@@ -55,7 +54,7 @@
     text-align: left;
 }
 .botaologin{
-    margin-left: 45%;
+    
     display: flex;
     width: 42px;
     height: 30px;
@@ -63,20 +62,23 @@
     border: 0;
     background-color: #FBF8F4;
     cursor: pointer;
+    position: relative;
+    z-index: 2;
+    left: 130px;
+
 }
 .loginlinks{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    margin-bottom: 5vh;
     font-family: "Montserrat";
     text-align: end;
-    height: 50vh;
-    width: 30vw;
-    margin-left: 50%;
-    margin-bottom: 25%;
     position: relative;
+    height: auto;
     z-index: 2;
+    top: 40%;
+    right: 11%;
+
 }
 .reflogin{
     text-decoration: none;
@@ -86,41 +88,53 @@
     text-align: left;
     font-size: 16px;
 }
+@media (min-width: 1921px) {
+    .gerallogin{
+        width: 100%;
+        height: 100%;
+    }
+    .esquerdalogin{
+        position: relative;
+        margin-left: 50px;
+        width: 30vw;
+        height: 100vh;
+    }
+    .titulologin{
+        font-size: 100px;
+    }
+    .inputlogin{
+        width: 400px;
+        height: 40px;
+    }
+    .botaologin{
+        left: 180px;
+    }
+    .reflogin{
+        font-size: 24px;
+    }
+}
 @media (max-width: 768px) {
     .gerallogin{
         width: 100%;
         height: 100%;
-        display: flex;
         flex-direction: column-reverse;
-        justify-content: center;
-        position: static;
         overflow-y: scroll;
         overflow-x: hidden;
     }
     .esquerdalogin{
-        margin-top: 620px;
+        position: relative;
         margin-left: 0px;
-        display: flex;
-        flex-direction: column;
+        margin-top: 65%;
         width: 100%;
-        height: auto;
-        justify-content: flex-start;
-        align-items: center;
-    }
-    .login{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
+        height: 100%;
     }
     .titulologin{
-        font-family: Montserrat;
         font-size: 32px;
-        font-weight: 400;
     }
     .logar{
        width: 100%;
        height: auto;
+       
        display: flex;
        flex-direction: column;
        justify-content: flex-start;
@@ -129,87 +143,34 @@
         width: 338px;
         height: 32px;
     }
-    .botaologin{
-        width: 42px;
-        display: flex;
-        align-items: end;
-        margin-left: 350%;
-    }
     .loginlinks{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        font-family: "Montserrat";
-        text-align: start;
-        width: 100%;
-        height: auto;
-        margin: 0px 0px 30px 85px;
+      margin-top: 30px;
+      margin-bottom: 40px;
     }
+    
+    
 
 }
 @media (max-width: 425px) {
-    .gerallogin{
-        width: 425px;
-        height: 100%;
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        position: static;
-        overflow-y: scroll;
-        overflow-x: hidden;
-    }
+   
     .esquerdalogin{
-        margin-top: 400px;
-        margin-left: 0px;
-        width: 425px;
-        
+        margin-top: 80%;
     }
-    .logar{
-       width: 425px;
-       height: auto;
-       display: flex;
-       flex-direction: column;
-       justify-content: flex-start;
+    .loginlinks{
+        right: 90px;
     }
    
     
     
 }
 @media (max-width: 375px) {
-    .gerallogin{
-        width: 375px;
-        justify-content: center;
-        height: 880px;
-        position: static;
-        overflow-y: scroll;
-        overflow-x: hidden;
-    }
-    .esquerdalogin{
-        margin-left: 0;
-        width: 375px;
-    }
-}
-@media (max-width: 320px) {
-    .gerallogin{
-        width: 320px;
-        justify-content: center;
-        height: auto;
-        position: static;
-        overflow-y: scroll;
-        overflow-x: hidden;
-    }
-    .esquerdalogin{
-        margin-top: 280px;
-        margin-left: 0;
-        width: 320px;
-    }
+   .inputlogin{
+       width: 250px;
+   }
     .botaologin{
-        width: 42px;
-        display: flex;
-        align-items: end;
-        margin-left: 250%;
-    }
-    .inputlogin{
-        width: 250px;
-    }
+       left: 110px;
+   } 
+   .loginlinks{
+    right: 50px;
+   }
 }

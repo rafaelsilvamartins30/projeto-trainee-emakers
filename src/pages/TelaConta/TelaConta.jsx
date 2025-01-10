@@ -1,4 +1,4 @@
-import React, { useState } from 'react'; // Adicione useState aqui
+import React, { useState } from 'react'; 
 import './TelaConta.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Cabecalho from '../../components/Cabecalho/Cabecalho';
@@ -11,7 +11,7 @@ const TelaConta = () => {
   });
   const [isEditing, setIsEditing] = useState(false);
   
-  const [avaliacoes, setAvaliacoes] = useState([0, 0, 0, 0]); // Inicializa com 0 para 4 jogos
+  const [avaliacoes, setAvaliacoes] = useState([0, 0, 0, 0]); 
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -39,7 +39,7 @@ const TelaConta = () => {
     return (
       <div>
         {[...Array(5)].map((_, starIndex) => (
-          <span
+          <span className='spandireita'
             key={starIndex}
             onClick={() => handleStarClick(index, starIndex + 1)}
             style={{ cursor: "pointer", color: starIndex < avaliacoes[index] ? "gold" : "gray" }}

@@ -14,13 +14,15 @@
 .midhome{
     margin-top: 10vh;
 }
-.carroselcimamobile{
-    display: none;
+.carroselcimamobile {
+    visibility: hidden;
+    position: absolute;
+    height: 0; 
+    overflow: hidden; 
 }
-.carroselcima{
-    display: block;
-    width: 100vw;
-    height: 70vh;
+.carroselcima {
+    visibility: visible;
+    position: static;
 }
 .carrossel-container {
     width: 90vw; 
@@ -315,13 +317,17 @@
         overflow-y: auto;
         overflow-x: hidden;
     }
-    .carroselcimamobile{
-        display: block;
-        width: 425px;
+    .carroselcimamobile {
+        visibility: visible;
+        position: static;
         height: auto;
+        overflow: visible;
     }
     .carrossel-container {
-        display: none;
+        visibility: hidden;
+        position: absolute;
+        height: 0;
+        overflow: hidden;
     }
     .carroselmobile{
         display: block;

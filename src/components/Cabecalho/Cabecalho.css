@@ -22,7 +22,7 @@
 }
 .imgcab{
     position: relative;
-    left: 0;
+    left: 10%;
     height: 10vh;
     width: 10vh;
 }
@@ -33,7 +33,7 @@
     border: none;
     color: #4B626C;
     cursor: pointer;
-    margin-right: 20px;
+    position: relative;
 }
 
 .menu {
@@ -150,6 +150,7 @@
     .menu-toggle {
         position: relative;
         display: block;
+        right: 5%;
     }
     .menu-toggle.active {
         color: #FFFFFF; 

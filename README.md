@@ -24,6 +24,7 @@ Organizei o projeto utilizando o React Router, criando as rotas no arquivo `App.
   - 768px
   - 1024px 
   - 1440px
+  - 1920px
 
 - **Telas de Login, Recuperação e Registro**:  
   - Os inputs, botões e links dessas telas estão funcionais.  

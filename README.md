@@ -17,6 +17,13 @@ Primeiro, escolhi as 4 páginas que seriam:
 Organizei o projeto utilizando o React Router, criando as rotas no arquivo `App.jsx`. Assim, na pasta `src`, criei pastas para os componentes reutilizáveis, como cabeçalho e rodapé, uma pasta para as imagens utilizadas e uma pasta para cada tela.
 
 ## ⚙️ Funcionalidades
+- **Todas telas tem responsividade trabalhada nas larguras de: 
+  - 320px
+  - 375px
+  - 425px
+  - 768px
+  - 1024px 
+  - 1440px
 
 - **Telas de Login, Recuperação e Registro**:  
   - Os inputs, botões e links dessas telas estão funcionais.  

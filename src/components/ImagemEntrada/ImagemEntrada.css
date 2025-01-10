@@ -2,28 +2,71 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 100vh;
-  width: 70vw;
+  height: 100%;
+  width: 70%;
+  position: absolute;
+  z-index: 1;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 .imgentrada{
-  margin-top: -160px;
-  width: 70vw;
-  height: 135vh;
+  position: fixed;
+  top: -160px;
+  width: 1124px;
+  height: 1124px;
+}
+
+@media (max-width: 1280px) {
+  
+  .imgentrada{
+    width: 984px;
+    height: 984px;
+  }
+}
+@media (max-width: 768px) {
+  .ImagemEntrada {
+    width: 100%;
+  }
+  .imgentrada{
+    position: relative;
+    top: -87px;
+    
+    width: 768px;
+    height: 768px;
+  }
 }
 @media (max-width: 425px) {
   .ImagemEntrada {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;  
-    align-items: center;
-    width: 100%;
     height: 400px;
   }
   .imgentrada{
-    margin-top: -100px;
-    align-items: center;
+    position: relative;
+    top: -48px;
+  
     width: 425px;
     height: 425px;
   }
 
+}
+@media (max-width: 375px) {
+  .ImagemEntrada {
+    height: 375px;
+  }
+  .imgentrada{
+    position: relative;
+    top: -43px;
+    width: 375px;
+    height: 375px;
+  }
+}
+@media (max-width: 320px) {
+  .ImagemEntrada {
+    height: 320px;
+  }
+  .imgentrada{
+    position: relative;
+    top: -36px;
+    width: 320px;
+    height: 320px;
+  }
 }

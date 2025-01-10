@@ -7,10 +7,11 @@
     overflow: hidden;
 }
 .esquerdareg{
+    margin-left: 50px;
     display: flex;
     flex-direction: column;
-    width: 30vw;
-    height: 100vh;
+    width: auto;
+    height: auto;
     justify-content: flex-start;
     align-items: center;
 }
@@ -22,6 +23,8 @@
     height: 50vh;
     justify-content: flex-start;
     align-items: center;
+    position: relative;
+    z-index: 2;
 }
 .tituloreg{
     display: flex;
@@ -42,6 +45,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    
 }
 .inputrereg{
     margin-bottom: 10%;
@@ -73,7 +77,8 @@
     text-align: start;
     margin-left: -35%;
     margin-bottom: 30%;
-
+    position: relative;
+    z-index: 2;
 }
 .refreg{
     text-decoration: none;
@@ -83,22 +88,78 @@
     text-align: left;
     font-size: 16px;
 }
+@media (max-width: 768px) {
+    .geralreg{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .esquerdareg{
+        margin-top: 620px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .reg{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .tituloreg{
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 400;
+    }
+    .registrar{
+       width: 100%;
+       height: auto;
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+    }
+    .inputrereg{
+        width: 338px;
+        height: 32px;
+    }
+    .botaoreg{
+        width: 42px;
+        display: flex;
+        align-items: end;
+        margin-left: 350%;
+    }
+    .reglinks{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        font-family: "Montserrat";
+        text-align: start;
+        width: 100%;
+        height: auto;
+        margin: 0px 0px 30px 85px;
+    }
+
+}
 @media (max-width: 425px) {
     .geralreg{
         width: 425px;
-        height: 100%;
+        height: autos;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
         overflow: hidden;
     }
     .esquerdareg{
-        display: flex;
-        flex-direction: column;
+        margin-top: 400px;
+        margin-left: 0px;
         width: 425px;
-        height: 630px;
-        justify-content: flex-start;
-        align-items: center;
+        height: 600px;
     }
     .reg{
         display: flex;
@@ -141,4 +202,43 @@
         margin: 0px 0px 30px 85px;
     }
     
+}
+@media (max-width: 375px) {
+    .geralreg{
+        width: 375px;
+        height: auto;
+    }
+    .esquerdareg{
+        margin-top: 330px;
+        margin-left: 0;
+        width: 375px;
+        height: 900;
+    }
+}
+@media (max-width: 320px) {
+    .geralreg{
+        width: 320px;
+        justify-content: center;
+        height: auto;
+    }
+    .esquerdareg{
+        margin-top: 280px;
+        margin-left: 0;
+        width: 320px;
+        height:  auto;
+    }
+    .reglinks{
+        top: 30px;
+        left:65px;
+    }
+    .botaoreg{
+        width: 42px;
+        display: flex;
+        align-items: end;
+        margin-left: 200% !important;
+    }
+    .inputrereg{
+        width: 200px;
+        margin-bottom: 30px;
+    }
 }

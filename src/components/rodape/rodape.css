@@ -159,6 +159,7 @@
 }
 @media (max-width: 580px) {
     .geralrodape{
+        position: relative;
         display: flex;
         justify-content: space-between;
         flex-direction: column;
